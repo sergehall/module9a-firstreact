@@ -1,8 +1,13 @@
-import UserList from "./components/UserList.jsx";
+import Assignment9A from "./components/Assignment9A.jsx";
 
 
 function App() {
-  return <UserList />;
+  return (
+    <div className="canvas">
+      <Assignment9A />
+    </div>
+  );
 }
+
 
 export default App;
