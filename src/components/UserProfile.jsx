@@ -1,8 +1,4 @@
-function UserProfile() {
-  const name = "Serge Hall";
-  const bio = "Full-stack developer passionate about creating user-friendly applications.";
-  const profileImage = "https://avatars.githubusercontent.com/u/60080971?v=4";
-
+function UserProfile({ name, bio, image }) {
   return (
     <div style={{
       maxWidth: '400px',
@@ -15,7 +11,7 @@ function UserProfile() {
       textAlign: 'center'
     }}>
       <img
-        src={profileImage}
+        src={image}
         alt={`${name}'s profile`}
         style={{
           width: '120px',
