@@ -1,12 +1,75 @@
-# React + Vite
+# CS81 Module 9A – Build Your First React Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of **Module 9 Assignment 9A** for Santa Monica College's CS81 JavaScript Programming course.  
+It demonstrates how to build reusable components in React using props, layout, and modular design practices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This React app was created using Vite and renders a set of user profile cards using modular components.  
+Each profile includes an image, name, and bio. There's also a styled assignment header and a contact card section at the bottom.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Repository Structure
+
+```
+.
+├── public/
+│   └── my-new-favicon.ico
+├── src/
+│   ├── assets/               # Optional assets folder (e.g. images)
+│   ├── components/
+│   │   ├── Assignment9A.jsx
+│   │   ├── AssignmentHeader.jsx
+│   │   ├── ContactCard.jsx
+│   │   ├── UserList.jsx
+│   │   └── UserProfile.jsx
+│   ├── data/
+│   │   └── userProfiles.js
+│   ├── styles/
+│   │   └── styles.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## What I Learned
+
+- How to set up a modern React project using Vite
+- How to create and reuse functional components with props
+- How to use `.map()` to render dynamic lists from data
+- How to organize project structure for scalability
+- How to style using external CSS and make components responsive
+- How to create gradient backgrounds, custom shadows, and themed cards
+
+---
+
+## Challenges
+
+- Replacing the single UserProfile component with a dynamic UserList component that maps through external data and renders multiple profiles in a responsive 2-column layout
+- Making box-shadow colors subtle yet distinguishable by matching them with custom green accent colors (#b5e6cc)
+- Ensuring consistent spacing, padding, and component alignment across the entire layout — especially between header, profile section, and contact block
+- Implementing a scroll-aware footer that appears smoothly when scrolling up using a window.scroll listener and class toggle logic
+
+---
+
+## Submission Requirements
+
+- [x] At least 4 modular React components
+- [x] Vite + JSX setup
+- [x] Styled layout with responsive 2-column profile grid
+- [x] Contact section styled like Assignment Header
+- [x] Commit messages with clear, descriptive changes
+
+---
+
+## License
+
+This project is for educational use only as part of Santa Monica College's CS81 coursework.
