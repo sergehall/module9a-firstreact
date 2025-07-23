@@ -1,7 +1,8 @@
 {
   "name": "module9a-firstreact",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "My first React component using Vite",
   "type": "module",
   "scripts": {
     "dev": "vite",
