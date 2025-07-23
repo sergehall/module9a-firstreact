@@ -11,6 +11,27 @@ This React app was created using Vite and renders a set of user profile cards us
 Each profile includes an image, name, and bio. There's also a styled assignment header and a contact card section at the bottom.
 
 ---
+## Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/sergehall/module9a-firstreact
+cd module9a-firstreact
+```
+
+2. **Install Node.js** (if not already installed)
+
+- Visit https://nodejs.org and download for your system.
+
+3. **Install dependencies**
+```bash
+npm install
+```
+4. **Start the development server**
+```bash
+npm run dev
+```
 
 ## Repository Structure
 
