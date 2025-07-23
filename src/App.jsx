@@ -6,6 +6,7 @@ function App() {
     <div className="canvas">
       <Assignment9A />
     </div>
+
   );
 }
 
