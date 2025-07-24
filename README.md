@@ -11,6 +11,19 @@ This React app was created using Vite and renders a set of user profile cards us
 Each profile includes an image, name, and bio. There's also a styled assignment header and a contact card section at the bottom.
 
 ---
+
+## Screenshot
+
+<details>
+  <summary> Click to view screenshot with comments</summary>
+
+A screenshot of your rendered UserProfile components (showing layout and styling):
+
+![Screenshot of commented StudentCard.jsx](./screenshots/Module-9-Assignment-9A.png)
+
+</details>
+
+---
 ## Getting Started
 
 1. **Clone the repository**
